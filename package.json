@@ -1,0 +1,9 @@
+{
+  "name": "workspace-aggregator",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^6.4.0",
+    "nx": "^15.4.2",
+    "prettier": "^2.7.1"
+  }
+}
