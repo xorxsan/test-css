@@ -1,10 +1,5 @@
 {
   "npmClient": "pnpm",
   "useWorkspaces": true,
-  "version": "1.0.0",
-  "command": {
-    "publish": {
-      "registry": "https://vistaprint.jfrog.io/vistaprint/api/npm/npm/"
-    }
-  }
+  "version": "1.0.0"
 }

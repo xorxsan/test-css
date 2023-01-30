@@ -23,9 +23,7 @@ export default [
       },
     ],
     plugins: [
-      postcss({
-        modules: true,
-      }),
+      postcss(),
       typescript({ tsconfig: "./tsconfig.json" }),
     ],
     external: Object.keys({

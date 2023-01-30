@@ -24,40 +24,24 @@
   },
   "scripts": {
     "build": "rimraf dist && concurrently \"pnpm build:code\" \"pnpm build:types\"",
-    "watch": "concurrently \"pnpm watch:code\" \"pnpm watch:types\"",
     "build:code": "rollup -c",
-    "build:types": "tsc --declaration true --emitDeclarationOnly --outDir dist/types",
-    "watch:code": "pnpm build:code -w",
-    "watch:types": "pnpm build:types -w",
-    "lint": "eslint src",
-    "analyze": "size-limit"
+    "build:types": "tsc --declaration true --emitDeclarationOnly --outDir dist/types"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@babel/core": "^7",
-    "@babel/preset-env": "^7",
     "@rollup/plugin-typescript": "^11",
-    "@size-limit/preset-big-lib": "^8",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@typescript-eslint/eslint-plugin": "^5",
-    "@typescript-eslint/parser": "^5",
     "concurrently": "^7",
-    "eslint": "^8",
-    "eslint-plugin-react": "^7",
-    "eslint-plugin-react-hooks": "^4",
-    "identity-obj-proxy": "^3.0.0",
     "postcss": "^8",
-    "react": "^16.14",
-    "react-dom": "^16.14",
+    "react": "^18",
+    "react-dom": "^18",
     "rimraf": "^4",
     "rollup": "^3",
     "rollup-plugin-postcss": "^4",
-    "size-limit": "^8",
     "tslib": "^2",
     "typescript": "^4"
   }

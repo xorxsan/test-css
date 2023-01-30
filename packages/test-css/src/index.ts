@@ -1,8 +1,2 @@
-
-import { MyComponent } from "./myComponent";
+export { MyComponent } from "./myComponent";
 import "./index.module.css";
-
-export {
-  MyComponent,
-};
-
