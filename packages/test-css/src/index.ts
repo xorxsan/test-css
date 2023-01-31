@@ -1,2 +1,3 @@
 export { MyComponent } from "./myComponent";
-import "./index.module.css";
+export { MyAnotherComponent } from "./myAnotherComponent";
+// import "./index.module.css";

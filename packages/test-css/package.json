@@ -17,7 +17,7 @@
     "dist"
   ],
   "sideEffects": [
-    "*.css"
+    "*.css.mjs"
   ],
   "engines": {
     "node": ">=16"
